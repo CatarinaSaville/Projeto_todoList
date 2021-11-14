@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> To-Do List</title>
-    <link rel="shortcut icon" id="ico" href="Lampada.ico" type="image/x-icon"> 
+    <link rel="shortcut icon" id="ico" href="Lampada.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -16,13 +16,16 @@
 <body>
     <div id="cabecalho">
         <h1>Lista de Afazeres</h1>
+        <h3> Para não esquecer...</h3>
         <br>
+    </div>
+    <div id="inpt">
         <input id="item" name="item" type="text" placeholder="Digite uma tarefa">
-        <button id="adiciona" name="adiciona" onclick="adicionar()">Adicionar</button>
+        <button style=" border-radius: 10px; font-style: oblique;" id="adiciona" name="adiciona" onclick="adicionar()">adicionar </button>
     </div>
     <br>
-    <section class="flex-container">
-        <div class="bloco">
+    <section>
+        <div>
             <ul id="lista">
 
             </ul>

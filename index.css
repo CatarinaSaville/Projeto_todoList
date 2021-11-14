@@ -1,39 +1,41 @@
-.img-fluid{
-  height: 768px;
-  width: 1366px;
+body {
+  background: rgb(59, 47, 126);
 }
 
-
-  #cabecalho {
-    text-align: center;
-  }
-
-  #ico{
-    background: none;
-    border: none;
-  }
-
-  .btn {
-    padding: auto;
-    background: none;
-    border: none;
-  }
-
-
-  .done {
-    text-decoration: line-through;
-  }
-
-.btn{
-  text-align: right;
+#cabecalho {
+  text-align: center;
+  height: 100px;
+  color: white;
+  font-style: oblique;
+  font-size: 20px;
 }
 
-  li {
-    margin-left: 500px;
-    text-align: left;
-    list-style-type: none;
-    width: 150px;
-    height: 30px;
-    background: rgb(129, 132, 165);
-  }
+input {
+  display: inline-block;
+  margin-left: 41%;
+  padding: 20px 25px;
+  background-color: white;
+  border-radius: 40px;
+}
 
+#ico {
+  background: none;
+  border: none;
+}
+
+.btn {
+  background: none;
+  border: none;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+li {
+  margin-left: 50px;
+  text-align: left;
+  list-style-type: none;
+  padding-top: 10px;
+  font-size: 25px;
+}
