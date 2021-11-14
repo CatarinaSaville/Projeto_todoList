@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> To-Do List</title>
+    <link rel="shortcut icon" id="ico" href="Lampada.ico" type="image/x-icon"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="cabecalho">
+        <h1>Lista de Afazeres</h1>
+        <br>
+        <input id="item" name="item" type="text" placeholder="Digite uma tarefa">
+        <button id="adiciona" name="adiciona" onclick="adicionar()">Adicionar</button>
+    </div>
+    <br>
+    <section class="flex-container">
+        <div class="bloco">
+            <ul id="lista">
+
+            </ul>
+        </div>
+    </section>
+
+</body>
+<script src="index.js"></script>
+
+</html>

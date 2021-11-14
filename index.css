@@ -1,0 +1,39 @@
+.img-fluid{
+  height: 768px;
+  width: 1366px;
+}
+
+
+  #cabecalho {
+    text-align: center;
+  }
+
+  #ico{
+    background: none;
+    border: none;
+  }
+
+  .btn {
+    padding: auto;
+    background: none;
+    border: none;
+  }
+
+
+  .done {
+    text-decoration: line-through;
+  }
+
+.btn{
+  text-align: right;
+}
+
+  li {
+    margin-left: 500px;
+    text-align: left;
+    list-style-type: none;
+    width: 150px;
+    height: 30px;
+    background: rgb(129, 132, 165);
+  }
+
