@@ -28,8 +28,8 @@ function adicionar() {
     adicionarNoHtml(item);
 }
 
-function getNewItemFromHtml(){
-   return document.querySelector("#item").value;
+function getNewItemFromHtml() {
+    return document.querySelector("#item").value;
 }
 
 function adicionarNoHtml(item, status) {
@@ -47,6 +47,8 @@ function adicionarNoHtml(item, status) {
     btnExcluir.className = "btn"
     btnExcluir.innerHTML = "<i class='fa fa-trash' aria-hidden='true'></i> ";
     btnExcluir.onclick = function () {
+
+        alert("Tem certeza que deseja excluir o item?")
         excluir(this);
     };
 
